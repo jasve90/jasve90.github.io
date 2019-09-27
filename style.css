@@ -1,0 +1,836 @@
+@font-face{
+    font-family: 'Montserrat-Medium';
+    src: url("fonts/Montserrat-Medium.ttf")
+}
+@font-face{
+    font-family: 'Montserrat-Light';
+    src: url("fonts/Montserrat-Light.ttf")
+}
+@font-face{
+    font-family: 'Montserrat-Regular';
+    src: url("fonts/Montserrat-Regular.ttf")
+}
+@font-face{
+    font-family: 'Montserrat-Bold';
+    src: url("fonts/Montserrat-Bold.ttf")
+}
+@font-face{
+    font-family: 'PlayfairDislplay-black';
+    src: url("fonts/PlayfairDisplay-Black.ttf")
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    height:100%;
+}
+
+a{
+text-decoration:none;
+color:#ffffff;
+}
+
+body{
+    font-family: 'Montserrat-Light';
+}
+
+div.hero-scene {
+    background: #0E0E0E;
+    width: 100%;
+    min-height: 100%;
+    height: 100%;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    padding: 42px 150px 0px 150px;
+    flex-wrap: nowrap;
+    align-content: normal;
+    justify-content: space-between;
+}
+
+.contenedor-redes a {
+    margin-right: 18px;
+    font-size: 25px;
+}
+.contenedor-redes a:last-child {
+    margin: 0px;
+}
+.menu-home a:first-child {
+    margin-right: 42px;
+}
+section.caja-fraseyo {
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 230px;
+    align-items: baseline;
+}
+.contenedor-yo{
+    margin-right: 120px;
+
+}
+
+.contenedor-yo p {
+    font-family: 'PlayfairDislplay-black';
+    color: white;
+    width: 480px;
+    margin: 0px;
+    font-size:72px;
+    
+}
+.parrafo-home{
+    font-size: 18px;
+    font-family: 'Montserrat-Regular';
+    color:#4D4D4D;
+    line-height: 38px;
+    margin-bottom: 0px;
+}
+.texto-linea-rotar {
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hacer-linea-vertical {
+    width: 1px;
+    background: white;
+    height: 130px;
+    margin-left: 8px;
+}
+
+.texto-linea-rotar a {
+    font-family: 'Montserrat-Light';
+    font-size: 20px;
+    letter-spacing: 5.6px;
+    writing-mode: tb-rl;
+    margin-top: 134px;
+    margin-bottom: 30px;
+}
+.texto-drch a{
+    color: black;
+}
+
+.caja-linea-numero-project {
+    margin-top: 78px;
+    display: flex;
+    align-items: center;
+}
+
+.linea-horizontal-izq {
+    width: 180px;
+    height: 1px;
+    background: #4d4d4d;
+}
+
+.caja-linea-numero-project {
+    margin-top: 78px;
+}
+
+p.numero-project {
+    font-family: 'Montserrat-Regular';
+    font-size: 60px;
+    margin-left: 16px;
+    color: #4D4D4D;
+    margin-right: 16px;
+}
+
+.imagenes-textdrch {
+    display: flex;
+    margin-left: 80px;
+    margin-right: 92px;
+    margin-top: 72px;
+}
+.texto-drch {
+    margin-left: 50px;
+    margin-top:50px;
+}
+
+
+.cajas-imagenes-izq{
+    position: relative;
+} 
+.imac {
+    max-width: 790px;
+    opacity: 1;
+}
+
+
+.cajas-imagenes-izq .iphone{
+    max-width: 220px;
+    position: absolute;
+    top: 38%;
+    left: 10%;
+    width: 100%;
+}
+
+p.titulo-text {
+    font-family: 'PlayfairDislplay-black';
+    font-size: 48px;
+    margin: 0px;
+}
+p.parrafo-drch {
+    font-family: 'Montserrat-Regular';
+    font-size: 18px;
+    color: #4d4d4d;
+    line-height: 2.1;
+    margin-top: 37px;
+}
+
+
+.linea-enlace-drch {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 56px;
+    margin-right: 16px;
+}
+.texto-drch a {
+    color: black;
+    font-family: 'Montserrat-Medium';
+    font-size: 18px;
+}
+.linea-horizontal-enlace-drch {
+    width: 56px;
+    background: black;
+    height: 1px;
+    margin-right: 16px;
+}
+/*    Caja texto izq      */
+
+.caja-linea-numero-project-drch {
+    margin-top: 78px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.imagenes-textizq {
+    display: flex;
+    margin-left: 85px;
+    margin-right: 92px;
+    margin-top: 72px;
+    flex-direction: row-reverse;
+}
+
+.texto-izq {
+    margin-right: 50px;
+    margin-top:50px;
+}
+
+.texto-izq a {
+    color: black;
+    font-family: 'Montserrat-Medium';
+    font-size: 18px;
+}
+
+.cajas-imagenes-drch{
+    position: relative;
+} 
+
+.cajas-imagenes-drch .iphone{
+    max-width: 220px;
+    position: absolute;
+    top: 38%;
+    right: 10%;
+}
+/*****   ABOUT ME *****/
+
+.linea-horizontal-izq-about {
+    width: 180px;
+    height: 1px;
+    background: #4d4d4d;
+}
+
+p.about {
+    font-family: 'PlayfairDislplay-black';
+    font-size: 72px;
+    margin-left: 16px;
+    color: #4D4D4D;
+}
+
+.container-about {
+    display: flex;
+    align-items: center;
+}
+.imagen-yo {
+    margin-left: 200px;
+    margin-top: 72px;
+}
+.imagen-yo img {
+    width: 76%;
+
+
+}
+.texto-yo {
+    MARGIN-RIGHT: 90PX;
+    MARGIN-LEFT: 60px;
+    margin-top: 72px;
+}
+
+p.titulo-yo{
+    font-family: 'Montserrat-Regular';
+    font-size:18px;
+    line-height: 36px;
+}
+
+.linea-enlace-about a{
+    color: black;
+    font-family: 'Montserrat-Medium';
+    font-size: 18px;
+}
+
+.linea-enlace-about {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 73px;
+}
+.linea-horizontal-about {
+    width: 56px;
+    height: 1px;
+    background: #4D4D4D;
+    margin-right:16px;
+}
+
+/** F O O T E R **/
+
+footer{
+    margin-top:180px;
+}
+
+.container-footer {
+    background-color: #000000;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 16px;
+}
+
+.redes-footer a {
+    font-size: 24px;
+}
+
+.redes-footer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 10%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.menu-footer {
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu-footer a {
+    font-size: 42px;
+    font-family: 'PlayfairDislplay-black';
+}
+
+.frase-derechos {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 48px;
+}
+.frase-derechos p {
+    color: #4D4D4D;
+    font-size: 18px;
+    font-family: 'Montserrat';
+}
+a:hover{
+    color: #E98F40;
+}
+.contenedor-redes a:hover {
+    background: white;
+    padding: 10px 12px;
+    border-radius: 50%;
+}
+
+
+
+.cajas-imagenes-izq img:hover{
+    transform: scale(1.1);
+}
+
+
+/********************/
+/******  R E S P O N S I V E ******/
+
+@media only screen and (max-width:414px){
+    html {
+        height: 100%;
+        max-width: 100%;
+        /* overflow-x: hidden; */
+    }
+    
+    body{
+        height:100%;
+        max-width: 100%;
+        /* overflow-x: hidden; */
+    }
+
+header {
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-content: normal;
+    justify-content: space-between;
+}
+.menu-home {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+
+
+
+
+.contenedor-redes {
+    display: none;
+}
+section.caja-fraseyo {
+    display: block;
+    margin-left: 0;
+    margin-right: 30px;
+    margin-top: 70px;
+    align-items: baseline;
+}
+.contenedor-yo {
+    margin-right: 0;
+}
+.contenedor-yo p {
+    width: auto;
+    margin: 0px;
+    font-size: 76px;
+    line-height: 80px;
+    margin-left: 10px;
+}
+.parrafo-home {
+    font-size: 18px;
+    font-family: 'Montserrat-Regular';
+    color: #4D4D4D;
+    line-height: 36px;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+div.hero-scene {
+    background: #0E0E0E;
+    width: 100%;
+    min-height: 100%;
+    height: auto;
+}
+.texto-linea-rotar {
+    margin-left: 5px;
+}
+
+.imagenes-textdrch {
+    display: BLOCK;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 72px;
+}
+.texto-drch {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 70px;
+}
+.cajas-imagenes-drch .iphone {
+    right: 14%;
+}
+.imagenes-textizq {
+    display: BLOCK;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 72px;
+    flex-direction: row-reverse;
+}
+.texto-izq {
+    margin-right: 20px;
+    margin-top: 70px;
+    margin-left: 10px;
+}
+.linea-horizontal-izq-about {
+    width: 50px;;
+}
+p.about {
+    font-size: 40px;
+}
+
+.container-about {
+    display: block;
+    align-items: inherit;
+}
+.imagen-yo {
+    margin-left: 0;
+    margin-top: 72px;
+    text-align: center;
+}
+.texto-yo {
+    MARGIN-RIGHT: 20px;
+    MARGIN-LEFT: 10px;
+    margin-top: 50px;
+}
+.redes-footer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.menu-footer a {
+    font-size: 30px;
+    font-family: 'PlayfairDislplay-black';
+}
+.menu-footer {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.frase-derechos {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 48px;
+}
+.frase-derechos p {
+    font-size: 15px;
+}
+
+.caja-proyecto {
+    overflow-x: hidden;
+}  
+
+}
+@media only screen and (min-width:415px) and (max-width:768px){
+    html {
+        height: 100%;
+        max-width: 100%;
+        /* overflow-x: hidden; */
+    }
+    
+    body{
+        height:100%;
+        max-width: 100%;
+        /* overflow-x: hidden; */
+    }
+    
+    header {
+        align-items: center;
+        display: flex;
+        padding: 20px 50px 20px 50px;
+        flex-wrap: nowrap;
+        align-content: normal;
+        justify-content: space-between;
+    }
+    div.hero-scene {
+    background: #0E0E0E;
+    width: 100%;
+    min-height: 0;
+    height: auto;
+}
+   
+
+section.caja-fraseyo {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 150px;
+    align-items: center;
+}
+.parrafo-home {
+    margin-left: 70px;
+}
+    .contenedor-yo {
+        margin-right: 0;
+        max-width: 50%;
+    }
+    .contenedor-yo p {
+        margin: 0px;
+        font-size: 76px;
+        line-height: 80px;
+        margin-left: 10px;
+    }
+    .parrafo-home {
+        font-size: 18px;
+        font-family: 'Montserrat-Regular';
+        color: #4D4D4D;
+        line-height: 36px;
+        margin-top: 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    div.hero-scene {
+        background: #0E0E0E;
+        width: 100%;
+        min-height:0%;
+        height: auto;
+    }
+    .texto-linea-rotar {
+        margin-left: 50px;
+    }
+    
+    .imagenes-textdrch {
+        display: BLOCK;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 72px;
+    }
+    .texto-drch {
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 70px;
+    }
+    .cajas-imagenes-drch .iphone {
+        right: 14%;
+    }
+    .imagenes-textizq {
+        display: BLOCK;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 72px;
+        flex-direction: row-reverse;
+    }
+    .texto-izq {
+        margin-right: 50px;
+        
+        margin-top: 70px;
+        margin-left: 50px;
+    }
+    .linea-horizontal-izq-about {
+        width: 50px;;
+    }
+    p.about {
+        font-size: 40px;
+    }
+    
+    .container-about {
+        align-items: inherit;
+    }
+    .imagen-yo {
+        margin-left: 0;
+        margin-top: 72px;
+        text-align: center;
+    }
+    .imagen-yo img {
+        width: 70%;
+    }
+    .texto-yo {
+        MARGIN-RIGHT: 50px;
+        MARGIN-LEFT: 10px;
+        margin-top: 50px;
+        max-width: 60%;
+    }
+    .redes-footer {
+        display: flex;
+        justify-content: space-evenly;
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .menu-footer a {
+        font-size: 30px;
+        font-family: 'PlayfairDislplay-black';
+    }
+    .menu-footer {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .frase-derechos {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 48px;
+    }
+    .frase-derechos p {
+        font-size: 15px;
+    }
+
+    .caja-proyecto {
+        overflow-x: hidden;
+    }  
+    
+}
+
+
+@media only screen and (min-width:769px) and (max-width:1024px){
+
+    body {
+        width: 100%;
+        /* overflow-x: hidden;
+        min-width: 100%; */
+    }
+    html {
+        width: 100%;
+        /* overflow-x: hidden;
+        min-width: 100%; */
+    }
+
+    
+    header {
+        align-items: center;
+        display: flex;
+        padding: 20px 50px 20px 50px;
+        flex-wrap: nowrap;
+        align-content: normal;
+        justify-content: space-between;
+    }
+    div.hero-scene {
+    background: #0E0E0E;
+    width: 100%;
+    min-height: 0;
+    height: auto;
+}
+   
+
+section.caja-fraseyo {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 150px;
+    align-items: center;
+}
+.parrafo-home {
+    margin-left: 70px;
+}
+    .contenedor-yo {
+        margin-right: 0;
+        max-width: 50%;
+    }
+    .contenedor-yo p {
+        margin: 0px;
+        font-size: 76px;
+        line-height: 80px;
+        margin-left: 10px;
+    }
+    .parrafo-home {
+        font-size: 18px;
+        font-family: 'Montserrat-Regular';
+        color: #4D4D4D;
+        line-height: 36px;
+        margin-top: 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    div.hero-scene {
+        background: #0E0E0E;
+        width: 100%;
+        min-height:0%;
+        height: auto;
+    }
+    .texto-linea-rotar {
+        margin-left: 50px;
+    }
+    
+    .imagenes-textdrch {
+        display: BLOCK;
+        margin-top: 72px;
+    }
+    .texto-drch {
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 70px;
+    }
+    .cajas-imagenes-drch .iphone {
+        right: 14%;
+    }
+    .imagenes-textizq {
+        display: BLOCK;
+        margin-top: 72px;
+        flex-direction: row-reverse;
+    }
+    .texto-izq {
+        margin-right: 50px;
+        
+        margin-top: 70px;
+        margin-left: 50px;
+    }
+    .linea-horizontal-izq-about {
+        width: 50px;;
+    }
+    p.about {
+        font-size: 40px;
+    }
+    
+    .container-about {
+        align-items: inherit;
+    }
+    .imagen-yo {
+        margin-left: 0;
+        margin-top: 72px;
+        text-align: center;
+    }
+    .imagen-yo img {
+        width: 70%;
+    }
+    .texto-yo {
+        MARGIN-RIGHT: 50px;
+        MARGIN-LEFT: 10px;
+        margin-top: 50px;
+        max-width: 60%;
+    }
+    .redes-footer {
+        display: flex;
+        justify-content: space-evenly;
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .menu-footer a {
+        font-size: 30px;
+        font-family: 'PlayfairDislplay-black';
+    }
+    .menu-footer {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .frase-derechos {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 48px;
+    }
+    .frase-derechos p {
+        font-size: 15px;
+    }
+
+    .caja-proyecto {
+        overflow-x: hidden;
+    }  
+
+
+}
+
+
+
+@media only screen and (min-width:1025px) and (max-width:1440px){
+}
+
+
+@media only screen and (min-width:1441px){
+}
