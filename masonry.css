@@ -12,6 +12,16 @@ body {
     height: 100%;
     z-index: 1;
   }
+
+  .contenedor-cabecera {
+    background: rgb(14, 14, 14);
+    position: fixed;
+    z-index: 999999;
+    top: 0;
+    width: 100%;
+    left: 0;
+    padding-bottom: 50px;
+}
   .full .content {
     background-color: rgba(0,0,0,0.75) !important;
     height: 100%;
@@ -38,6 +48,7 @@ body {
     grid-row-gap: 8px;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     grid-auto-rows: 8px;
+    margin-top: 180px;
   }
   .gallery img {
     max-width: 100%;
