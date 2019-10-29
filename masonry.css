@@ -1,86 +1,43 @@
-body {
-    background-color: #eee;
+.photo-gallery {
+    color:#313437;
+    background-color:#fff;
   }
-  .hello {
-    opacity: 1 !important;
+  
+  .photo-gallery p {
+    color:#7d8285;
   }
-  .full {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
+  
+  .photo-gallery h2 {
+    font-weight:bold;
+    margin-bottom:40px;
+    padding-top:40px;
+    color:inherit;
   }
-
-  .contenedor-cabecera {
-    background: rgb(14, 14, 14);
-    position: fixed;
-    z-index: 999999;
-    top: 0;
-    width: 100%;
-    left: 0;
-    padding-bottom: 50px;
-}
-  .full .content {
-    background-color: rgba(0,0,0,0.75) !important;
-    height: 100%;
-    width: 100%;
-    display: grid;
-  }
-  .full .content img {
-    left: 50%;
-    transform: translate3d(0, 0, 0);
-    animation: zoomin 1s ease;
-    max-width: 100%;
-    max-height: 100%;
-    margin: auto;
-  }
-  .byebye {
-    opacity: 0;
-  }
-  .byebye:hover {
-    transform: scale(0.2) !important;
-  }
-  .gallery {
-    display: grid;
-    grid-column-gap: 8px;
-    grid-row-gap: 8px;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    grid-auto-rows: 8px;
-    margin-top: 180px;
-  }
-  .gallery img {
-    max-width: 100%;
-    border-radius: 8px;
-    box-shadow: 0 0 16px #333;
-    transition: all 1.5s ease;
-  }
-  .gallery img:hover {
-    box-shadow: 0 0 32px #333;
-  }
-  .gallery .content {
-    padding: 4px;
-  }
-  .gallery .gallery-item {
-    transition: grid-row-start 300ms linear;
-    transition: transform 300ms ease;
-    transition: all 0.5s ease;
-    cursor: pointer;
-  }
-  .gallery .gallery-item:hover {
-    transform: scale(1.025);
-  }
-  @media (max-width: 600px) {
-    .gallery {
-      grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
-    }
-  }
-  @media (max-width: 400px) {
-    .gallery {
-      grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+  
+  @media (max-width:767px) {
+    .photo-gallery h2 {
+      margin-bottom:25px;
+      padding-top:25px;
+      font-size:24px;
     }
   }
   
+  .photo-gallery .intro {
+    font-size:16px;
+    max-width:500px;
+    margin:0 auto 40px;
   }
+  
+  .photo-gallery .intro p {
+    margin-bottom:0;
+  }
+  
+  .photo-gallery .photos {
+    padding-bottom:20px;
+  }
+  
+  .photo-gallery .item {
+    padding-bottom:30px;
+  }
+  
   
